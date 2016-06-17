@@ -13,6 +13,9 @@
 		CA0E16B81D1140EC0035E878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0E16B61D1140EC0035E878 /* Main.storyboard */; };
 		CA0E16BA1D1140EC0035E878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0E16B91D1140EC0035E878 /* Assets.xcassets */; };
 		CA0E16BD1D1140EC0035E878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0E16BB1D1140EC0035E878 /* LaunchScreen.storyboard */; };
+		CA4559C21D123A000045B696 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4559BF1D123A000045B696 /* Calculator.m */; };
+		CA4559C31D123A000045B696 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4559C11D123A000045B696 /* Fraction.m */; };
+		CA4559C61D1286330045B696 /* infoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4559C51D1286330045B696 /* infoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		CA0E16B91D1140EC0035E878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA0E16BC1D1140EC0035E878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA0E16BE1D1140EC0035E878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA4559BE1D123A000045B696 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		CA4559BF1D123A000045B696 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		CA4559C01D123A000045B696 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		CA4559C11D123A000045B696 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		CA4559C41D1286330045B696 /* infoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoViewController.h; sourceTree = "<group>"; };
+		CA4559C51D1286330045B696 /* infoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = infoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +67,17 @@
 		CA0E16AC1D1140EC0035E878 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				CA4559BE1D123A000045B696 /* Calculator.h */,
+				CA4559BF1D123A000045B696 /* Calculator.m */,
+				CA4559C01D123A000045B696 /* Fraction.h */,
+				CA4559C11D123A000045B696 /* Fraction.m */,
 				CA0E16B01D1140EC0035E878 /* AppDelegate.h */,
 				CA0E16B11D1140EC0035E878 /* AppDelegate.m */,
 				CA0E16B31D1140EC0035E878 /* ViewController.h */,
 				CA0E16B41D1140EC0035E878 /* ViewController.m */,
 				CA0E16B61D1140EC0035E878 /* Main.storyboard */,
+				CA4559C41D1286330045B696 /* infoViewController.h */,
+				CA4559C51D1286330045B696 /* infoViewController.m */,
 				CA0E16B91D1140EC0035E878 /* Assets.xcassets */,
 				CA0E16BB1D1140EC0035E878 /* LaunchScreen.storyboard */,
 				CA0E16BE1D1140EC0035E878 /* Info.plist */,
@@ -150,8 +165,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA0E16B51D1140EC0035E878 /* ViewController.m in Sources */,
+				CA4559C21D123A000045B696 /* Calculator.m in Sources */,
+				CA4559C61D1286330045B696 /* infoViewController.m in Sources */,
 				CA0E16B21D1140EC0035E878 /* AppDelegate.m in Sources */,
 				CA0E16AF1D1140EC0035E878 /* main.m in Sources */,
+				CA4559C31D123A000045B696 /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +320,7 @@
 				CA0E16C31D1140EC0035E878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
